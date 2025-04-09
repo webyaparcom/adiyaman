@@ -1,5 +1,5 @@
 
-  .zgpi1 {
+  .ncxls {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     justify-content: center;
   }
 
-  .zgpi1title {
+  .ncxlstitle {
     width: 100%;
     background-color: #333;
     display: flex;
@@ -15,7 +15,7 @@
     justify-content: center;
   }
 
-  .zgpi1titlebody {
+  .ncxlstitlebody {
     color: #fff;
     width: var(--max);
     display: flex;
@@ -23,24 +23,24 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .zgpi1titlebodytitle {
+  .ncxlstitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .zgpi1titlebodylang {
+  .ncxlstitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .zgpi1titlebodylang ul {
+  .ncxlstitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .zgpi1body {
+  .ncxlsbody {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -48,14 +48,14 @@
     margin: 5px 0px 5px 0px;
   }
 
-  .zgpi1menu {
+  .ncxlsmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     width: var(--max);
   }
 
-  .zgpi1menulist {
+  .ncxlsmenulist {
     width: calc(100% - 20px);
     background-color: #e52521;
     padding: 10px;
@@ -63,7 +63,7 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .zgpi1menubody {
+  .ncxlsmenubody {
     width: 100%;
     background-color: #e52521;
     display: flex;
@@ -71,7 +71,7 @@
     justify-content: center;
   }
 
-  .zgpi1menulist ul {
+  .ncxlsmenulist ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -81,7 +81,7 @@
     overflow-x: auto;
   }
 
-  .zgpi1menulist ul a {
+  .ncxlsmenulist ul a {
     padding: 10px;
     font-size: 16px;
     color: #fff;
@@ -93,40 +93,40 @@
     white-space: nowrap;
   }
 
-  .zgpi1menulist ul a:hover {
+  .ncxlsmenulist ul a:hover {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000;
     cursor: pointer;
   }
 
-  .zgpi1menulistactive {
+  .ncxlsmenulistactive {
     background-color: #e0e0e0;
     border-radius: 5px;
     color: #000 !important;
     cursor: pointer;
   }
 
-  .zgpi1menulistbody {
+  .ncxlsmenulistbody {
     width: 100%;
   }
 
-  .zgpi1bodylogo {
+  .ncxlsbodylogo {
     height: 100px;
     max-width: 90vw;
     max-height: 100px;
   }
 
   @media screen and (max-width: 1024px) {
-    .zgpi1menu {
+    .ncxlsmenu {
       overflow-x: auto;
     }
 
-    .zgpi1menulist ul {
+    .ncxlsmenulist ul {
       flex-direction: row;
     }
 
-    .zgpi1bodylogo {
+    .ncxlsbodylogo {
       height: 50vw;
       max-width: 50vw;
       max-height: 100px;
@@ -134,7 +134,7 @@
   }
 
   @media screen and (max-width: 768px) {
-    .zgpi1menulist ul a {
+    .ncxlsmenulist ul a {
       font-size: 14px;
     }
   }
@@ -144,14 +144,14 @@
     justify-content: start;
   }
 
-  .wum29 {
+  .jk89q {
     width: var(--max);
     margin-top: 20px;
     gap: 10px;
     float: left;
   }
 
-  .wum29-menu {
+  .jk89q-menu {
     width: 200px;
     background-color: #f9f9f9;
     border-radius: 5px;
@@ -162,28 +162,28 @@
     float: left;
   }
 
-  .wum29-desc {
+  .jk89q-desc {
     display: flex;
     flex-direction: column;
     gap: 10px;
     float: right;
   }
 
-  .wum29-menu > a {
+  .jk89q-menu > a {
     background-color: #fff;
     padding: 10px;
     float: left;
     border-radius: 5px;
   }
 
-  .wum29-menu > .active,
-  .wum29-menu > a:hover {
+  .jk89q-menu > .active,
+  .jk89q-menu > a:hover {
     background-color: --menu-active--;
     color: #fff;
     display: flex;
   }
 
-  .wum29-desc-menu {
+  .jk89q-desc-menu {
     width: 200px;
     background-color: --menu-active--;
     display: flex;
@@ -191,19 +191,19 @@
     border-radius: 5px;
   }
 
-  .wum29-desc-menu > div {
+  .jk89q-desc-menu > div {
     padding: 5px;
     border-radius: 5px;
     background-color: #fff;
     margin: 5px;
   }
 
-  .wum29-desc-body {
+  .jk89q-desc-body {
     display: flex;
     justify-content: space-between;
   }
 
-  .wum29-title {
+  .jk89q-title {
     width: 100%;
     height: 200px;
     background-color: #000;
@@ -216,7 +216,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
 
-  .wum29-title::before {
+  .jk89q-title::before {
     content: "";
     position: absolute;
     top: 0;
@@ -231,56 +231,56 @@
     z-index: 1;
   }
 
-  .wum29-title span {
+  .jk89q-title span {
     position: relative;
     z-index: 2;
     font-size: 50px;
   }
 
-  .wum29-body {
+  .jk89q-body {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .wum29-img {
+  .jk89q-img {
     display: flex;
     align-items: center;
     justify-content: center;
     width: calc(var(--max) - 460px);
   }
 
-  .wum29-img img {
+  .jk89q-img img {
     width: 100%;
   }
 
   @media screen and (min-width: 1024px) {
-    .wum29-desc {
+    .jk89q-desc {
       width: calc(var(--max) - 240px);
     }
   }
 
   @media screen and (max-width: 1024px) {
-    .wum29 {
+    .jk89q {
       flex-direction: column;
       width: calc(100% - 10px);
       padding: 5px;
       gap: 20px;
     }
 
-    .wum29-img {
+    .jk89q-img {
       width: 100%;
     }
 
-    .wum29-body {
+    .jk89q-body {
       width: 100%;
     }
 
-    .wum29-menu {
+    .jk89q-menu {
       display: none;
     }
 
-    .wum29-desc {
+    .jk89q-desc {
       width: 100% !important;
     }
   }
